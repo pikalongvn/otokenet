@@ -1,0 +1,168 @@
+@import url("responsive.css");
+
+.clearAll {
+    margin: 0;
+    padding: 0;
+    float: none;
+    clear: both;
+}
+
+.no_gutter {
+    padding: 0;
+    margin: 0;
+}
+/** Home page **/
+.news-items{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e1e1e1;
+}
+[class~='news-items']:last-of-type  {
+    border: none;
+}
+h2{margin-top:0}
+.navbar-brand.pikalongicon{
+    padding-top:0px;
+}
+.mainbody .container.bg{
+     background-color:#fff;
+         max-width: 992px;
+}
+.news h4{
+    font-weight: bold;
+    color: #000;
+    max-height: 50px;
+    overflow: hidden;
+    padding: 15px 0 5px 0;
+}
+.news h4 a{ color: black;}
+
+
+.vote-container{
+    margin-top: 5px;
+}
+.vote-container .like-box{
+    float: left;
+}
+
+.pika-adsitem{
+    background-color:#fff;
+    width:100%;
+    text-align: right;
+    margin: 10px 0;
+}
+.mainbody{
+    padding-top:100px;
+}
+.mainwrap,.mainbody{
+/*background: rgb(116, 147, 112);*/
+background: url("../images/Pattern65.png") repeat;
+    background-size: 20%;
+}
+.itemsize img{
+    width:100%;
+}
+.items-content{
+    padding:20px 0;
+}
+.fb-cmment{
+    margin:20px 0;
+}
+#paging-buttons {
+    overflow: hidden;
+    padding: 20px;
+}
+#paging-buttons.paging-buttons a.previous {
+    float: left;
+}
+#paging-buttons a.disabled, #paging-buttons a.disabled:hover, #paging-buttons a.disabled:active {
+    opacity: .2;
+    cursor: default;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, .4) inset, 0 1px #fff;
+    -moz-box-shadow: 0 0 0 1px rgba(255, 255, 255, .4) inset, 0 1px #fff;
+    -webkit-box-shadow: 0 0 0 1px rgba(255, 255, 255, .4) inset, 0 1px #fff;
+}
+#paging-buttons.paging-buttons a {
+       width: 235px;
+    text-decoration: none;
+    margin: 0 5px;
+}
+#paging-buttons a {
+    display: block;
+    float: left;
+    background-color: #00A5F0;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    height: 36px;
+    line-height: 36px;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, .2);
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, .4) inset, 0 1px #fff;
+    -moz-box-shadow: 0 0 0 1px rgba(255, 255, 255, .4) inset, 0 1px #fff;
+    -webkit-box-shadow: 0 0 0 1px rgba(255, 255, 255, .4) inset, 0 1px #fff;
+    text-shadow: 0 -1px rgba(0, 0, 0, .2);
+}
+.navbar-custom {
+    background-color: #42b599;
+    color: #fff;
+    border-radius: 0;
+    background: #42b599;
+}
+
+.navbar-custom .navbar-nav > li > a {
+    color:#fff;
+}
+.navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+    border-bottom: 2px solid #f69781;
+      color:#fff;
+    background:transparent!important;
+}
+.navbar-custom .navbar-brand {
+      color:#fff;
+}
+
+/*Advs area*/
+.advs-area{
+    padding-left: 5%;
+}
+.advs-area a{
+    color: black;
+    font-weight: bold;
+}
+.advs-item{
+    margin-bottom: 10px;
+}
+.advs-item .thumb-img{
+    width: 100%;
+}
+.pleft2per{ padding-left: 2% !important}
+.post-toolbar{
+    display: block;
+    padding: 10px 0;
+}.next-post{ float: right;}
+.next-post .next{   
+    padding: 9px;
+    font-weight: bold;
+    height: 34px;
+    line-height: 34px;
+    background-color: #ff3c1f;
+    color: #fff;
+    border-radius: 3px 0 0 3px;
+}
+
+.next-post .arrow {
+    border-top: 17px dashed transparent;
+    border-bottom: 17px dashed transparent;
+    border-left: 12px solid #ff3c1f;
+    position: absolute;
+	    right: 3px;
+    top: 10px;
+}
+.next-post:hover,.next-post:active{
+	text-decoration:none;
+	color:white;
+}
